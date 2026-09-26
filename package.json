@@ -22,7 +22,12 @@
   },
   "homepage": "https://github.com/pavlo20031/js-36#readme",
   "dependencies": {
+    "@parcel/transformer-inline-string": "^2.16.4",
+    "@pnotify/core": "^5.2.0",
+    "@pnotify/mobile": "^5.2.0",
     "gh-pages": "^6.3.0",
-    "parcel": "^2.16.4"
+    "lodash.debounce": "^4.0.8",
+    "parcel": "^2.16.4",
+    "pnotify": "^5.2.0"
   }
 }
