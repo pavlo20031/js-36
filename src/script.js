@@ -38,7 +38,6 @@ inputRef.addEventListener(
             .join("");
 
           listRef.innerHTML = createMarkup;
-          console.log(data.data.objects);
         } else if (data.data.objects.length === 1) {
           listRef.innerHTML = "";
           success({
@@ -76,7 +75,6 @@ inputRef.addEventListener(
             )
             .join("");
           listRef.innerHTML = createMarkups;
-          console.log(data.data.objects);
         } else if (!data.data.objects || data.data.objects.length === 0) {
           error({
             text: "Не знайдено країн, перевірте чи правильно ви написали",
@@ -84,6 +82,5 @@ inputRef.addEventListener(
           });
         }
       })
-      .catch((err) => console.log(err));
   }, 500),
 );
