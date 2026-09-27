@@ -112,6 +112,5 @@ body {
   margin-left: 24px;
 }
 .list-img{
-  outline: 3px solid black;
-  border-radius: 5px;
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
