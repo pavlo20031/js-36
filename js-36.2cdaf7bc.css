@@ -86,7 +86,20 @@ body {
 }
 
 .list-item {
+  color: #333;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 12px 16px;
   list-style: none;
+  transition: all .3s;
+}
+
+.list-item:is(:hover, :focus) {
+  color: #000;
+  background-color: #f5f5f5;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px #0000001f;
 }
 
 .list-box {
